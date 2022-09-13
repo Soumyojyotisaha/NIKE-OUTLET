@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Montserrat:ital,wght@0,400;1,100&family=Titillium+Web&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	width: 100vw;
+	min-height: 100vh;
+	z-index: -5;
+	height: 100vh;
+	font-family: "Titillium Web", sans-serif;
+}
+
+.navbar {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1);
+	font-weight: 600;
+}
+
+.navbar span:nth-of-type(0n+1) {
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 30px;
+}
+
+.navbar span :nth-last-of-type(0n+2) {
+	width: 40%;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 30px;
+}
+
+.fa-bag-shopping {
+	margin: 0 5px;
+}
+
+.bg {
+	height: 600px;
+	width: 600px;
+	background: rgba(215, 229, 231, 1);
+	position: absolute;
+	z-index: -2;
+	top: -45%;
+	left: 20%;
+	border-radius: 50%;
+}
+
+.container {
+	width: 100%;
+	height: 665px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	z-index: 3;
+	position: inherit;
+}
+
+.box {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.segment-1 {
+	height: 550px;
+	width: 220px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	overflow: hidden;
+}
+
+.segment-2 {
+	background: linear-gradient(45deg, rgba(0, 77, 77, 1), rgba(0, 179, 179, 1));
+	height: 550px;
+	width: 280px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 8px 8px 12px rgba(221, 221, 221, 1);
+	position: relative;
+}
+
+.segment-3 {
+	background: linear-gradient(45deg, rgba(255, 51, 51, 1), rgba(255, 128, 128, 1));
+	height: 475px;
+	width: 280px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 8px 8px 12px rgba(221, 221, 221, 1);
+	position: relative;
+}
+
+.segment-4 {
+	overflow: hidden;
+	height: 475px;
+	width: 220px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.segment-1-1 {
+	width: 100%;
+	height: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.segment-1-1 h1, h4 {
+	transform: rotate(270deg);
+	font-family: sans-serif;
+}
+
+.segment-1-1 h1 {
+	font-size: 48px;
+}
+
+.segment-1-1 h4 {
+	color: rgba(204, 204, 204, 0.8);
+	margin-left: -30px;
+}
+
+.segment-1-2 {
+	height: 15%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 40px;
+}
+
+.segment-1-2a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1);
+}
+
+.segment-2-1 {
+	width: 100%;
+	height: 70%;
+	padding: 0 25px;
+}
+
+.segment-2-1 h1 {
+	font-size: 60px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.segment-2-2 {
+	width: 100%;
+	height: 30%;
+	padding: 25px;
+}
+
+.segment-2-2 button {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(255, 255, 255, 1);
+	padding: 8px 28px;
+	margin-top: 15px;
+	border: none;
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.segment-2-2 h3 {
+	color: rgba(255, 255, 255, 1);
+}
+
+.segment-2-2 h2 {
+	color: rgba(255, 204, 207, 1);
+}
+
+.green-shoe {
+	width: 400px;
+	position: absolute;
+	top: 25%;
+	left: -30%;
+	z-index: 10;
+	transform: rotate(-30deg);
+}
+
+.segment-3-1 {
+	width: 100px;
+	height: 75%;
+	padding: 0 25px;
+}
+
+.segment-3-1 h1 {
+	color: rgba(255, 255, 255, 1);
+	font-size: 60px;
+}
+
+.segment-3-2 {
+	width: 100%;
+	height: 25%;
+	padding: 25px;
+}
+
+.segment-3-2 h3 {
+	color: rgba(255, 255, 255, 1);
+}
+
+.segment-3-2 h2 {
+	color: rgba(179, 255, 236, 1);
+}
+
+.red-shoe {
+	width: 400px;
+	position: absolute;
+	top: 25%;
+	left: -30%;
+	z-index: 10;
+	transform: rotate(-30deg);
+}
+
+.segment-4-1 {
+	width: 100%;
+	height: 85%;
+	padding: 0 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.segment-4-1 span {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.segment-4-1 span img {
+	width: 50px;
+	margin: 10px 0;
+}
+
+.side-logo img:nth-last-of-type(0n+2) {
+	opacity: 0.3;
+}
+
+.side-logo img:nth-last-of-type(0n+1) {
+	opacity: 0.3;
+}
+
+.segment-4-2 {
+	width: 100%;
+	height: 15%;
+	padding: 0 40px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.segment-4-2 p {
+	font-weight: 600;
+}
